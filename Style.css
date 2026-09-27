@@ -1,0 +1,145 @@
+html, body {
+    scroll-behavior: smooth;
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --pink: #E5007D;
+    --White: #FFFFFF;
+    --Blue: #000396;
+    --grey: #666666;
+}
+
+.top-bar {
+    width: 100%;
+}
+
+.top-bar-contact {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    align-items: center;
+    justify-content: center;
+    padding: 20px 230px;
+    margin: 0;
+    border: solid var(--Blue) 2px;
+    border-radius: 30px;
+    margin-top: 15px;
+    gap: 20px;
+
+}
+
+.top-bar-contact a {
+    color: var(--pink);
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.top-bar-contact i {
+    color: var(--Blue);
+    margin-right: 2px;
+    font-size: 1em;
+}
+
+
+
+.navigation-container {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.navigation-container-left img {
+    height: 125px;
+    width: 345px;
+}
+
+.navigation-container-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 30px;
+    padding: 4% 0px;
+}
+
+.links {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.navigation-container-right {
+    width: auto;
+    align-items: center;
+}
+
+.navigation-container-right a {
+    display: block;
+    color: white;
+    border: solid;
+    border-radius: 40px;
+    padding: 25px 5.5em;
+    background-color: var(--pink)
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.n-c-r-btn {
+    display: flex;
+    position: relative;
+}
+
+.navigation-container-right-icon {
+    position: absolute;
+    top: 50%;
+    RIGHT: 15%;
+    transform: translateY(-50%);
+
+}
+
+.navigation-container-right i {
+    color: var(--pink);
+    background-color: white;
+    border-radius: 50%;    
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.sec-1-container {
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.sec-1-btn {
+    display: block;
+    margin: 0 auto; 
+    padding: 20px 30px;
+    color: var(--pink);
+    background-color: white;;
+    text-decoration: none;
+}
+
+.sec-2-container {
+    margin-top: 40px;
+}
+
